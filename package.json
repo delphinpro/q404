@@ -1,0 +1,41 @@
+{
+  "name": "q404",
+  "version": "0.0.1",
+  "description": "A Quasar Framework app",
+  "productName": "Quasar App",
+  "author": "delphinpro <delphinpro@yandex.ru>",
+  "private": true,
+  "scripts": {
+    "dev:ssr": "node_modules/.bin/quasar dev -m ssr",
+    "build": "node_modules/.bin/quasar build -m ssr"
+  },
+  "dependencies": {
+    "@quasar/extras": "^1.0.0",
+    "axios": "^0.18.1",
+    "core-js": "^3.6.5",
+    "quasar": "^1.0.0",
+    "vue": "^2.6.12",
+    "vue-router": "^3.4.6",
+    "vuex": "^3.5.1"
+  },
+  "devDependencies": {
+    "@quasar/app": "^2.0.0",
+    "@quasar/cli": "^1.1.2"
+  },
+  "browserslist": [
+    "last 10 Chrome versions",
+    "last 10 Firefox versions",
+    "last 4 Edge versions",
+    "last 7 Safari versions",
+    "last 8 Android versions",
+    "last 8 ChromeAndroid versions",
+    "last 8 FirefoxAndroid versions",
+    "last 10 iOS versions",
+    "last 5 Opera versions"
+  ],
+  "engines": {
+    "node": ">= 10.18.1",
+    "npm": ">= 6.13.4",
+    "yarn": ">= 1.21.1"
+  }
+}
